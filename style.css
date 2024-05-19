@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+#mainTitle{
+    font-size: 40px;
+}
+#numTitle, #passTitle{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#app, .mainContainer, #container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    gap: 35px;
+}
+.mainContainer-passwordArea{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 20px 35px;
+}
+.generate{
+    width: 100px;
+    height: 30px;
+}
+#app{
+    gap: 30px;
+    .btn{
+        padding: 10px 20px;
+        outline: 2px solid gray;
+    }
+}
+#highReg, #password, #LowReg{
+    margin-left: 10px;
+}
+#password, #num, #num2{
+    padding: 10px 20px;
+    outline: 1px solid gray;
+}
+.fetchPassword{
+    font-size: 30px;
+    color: rgba(30, 30, 209, 0.863);
+}
